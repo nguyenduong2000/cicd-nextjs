@@ -1,0 +1,4 @@
+id,created_at,user_id,broker_id,type,settings
+2,2023-09-14 08:31:34.750226+00,fbbcd517-4f2c-402c-b20d-d6ed2c1d4236,2,money,"{""ib_username"":""johnatha"",""ib_userid"":""fbbcd517-4f2c-402c-b20d-d6ed132fa"",""ib_password"":""password""}"
+1,2023-09-14 08:31:34.750226+00,fbbcd517-4f2c-402c-b20d-d6ed2c1d4236,3,payer,"{""td_account_id"":""asdfd-1233fsafd-fsa"",""td_account_key"":""eyasdfl12asfd;"",""td_account_token"":""r12asdfas3dfgv""}"
+3,2023-09-14 08:31:34.750226+00,fbbcd517-4f2c-402c-b20d-d6ed2c1d4236,3,payer,"{""td_account_id"":""fbbcd517-4f2c-402c-b20d-d6ed2c1d4236"",""td_account_key"":""asdfdf"",""td_account_token"":""eyasdfadsfaafadsfd""}"

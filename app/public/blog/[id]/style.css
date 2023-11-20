@@ -1,0 +1,15 @@
+.heading {
+    @apply mb-4
+}
+
+.article-title {
+    @apply font-medium leading-[39px] text-[20px]
+}
+
+.article-content {
+    @apply mt-4 sm:mt-0
+}
+
+.article-topic {
+    @apply font-semibold text-[#010101] leading-[20px] text-[20px]
+}

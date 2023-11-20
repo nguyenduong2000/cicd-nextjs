@@ -1,0 +1,14 @@
+.toc {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.toc-active {
+    font-weight: 600;
+    color: #118707;
+}
+
+.toc-heading {
+    font-weight: 600;
+    font-size: 24px;
+}

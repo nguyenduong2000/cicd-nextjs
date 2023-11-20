@@ -1,0 +1,7 @@
+.wrap-sidebar {
+    .ant-menu-vertical {
+        .ant-menu-item-selected {
+            @apply bg-zinc-800 text-white
+        }
+    }
+}

@@ -1,0 +1,4 @@
+created_at,name,supported_types
+2023-09-13 07:05:39.028663+00,TdAmeritrade,payer
+2023-09-13 07:02:02.251844+00,Interactive Brokers,money
+2023-09-13 07:01:41.041226+00,Paper Money,payer

@@ -1,0 +1,13 @@
+
+.custom-select >.ant-select-selector{
+    @apply px-0 !important ;
+
+}
+.custom-select .ant-select-selector .ant-select-selection-item{
+    @apply font-semibold !important;
+    font-size: 1rem !important;
+}
+
+.wrap-select .ant-select .ant-select-selector {
+    @apply border border-gray-400 rounded-[4px]
+}

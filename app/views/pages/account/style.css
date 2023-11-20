@@ -1,0 +1,30 @@
+*:focus {
+    @apply ring-0
+}
+
+.account-tab {
+    .ant-tabs-nav {
+        &::before {
+            @apply border-b border-zinc-700
+        }
+    }
+
+    .ant-tabs-tab {
+        font-weight: 400;
+        color: #fff;
+        font-size: 20px;
+
+        &:hover {
+            color: #EC4899;
+        }
+
+        &.ant-tabs-tab-active .ant-tabs-tab-btn {
+            color: #EC4899;
+        }
+    }
+
+    .ant-tabs-ink-bar {
+        background: #EC4899;
+    }
+
+}

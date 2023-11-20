@@ -1,0 +1,46 @@
+.broker-account-table .ant-table .ant-table-container {
+
+    .ant-table-thead {
+        .ant-table-cell {
+            font-size: 20px;
+            background: #27272A;
+            padding: 12px 4px;
+            max-width: 400px;
+            user-select: none;
+            font-weight: 400;
+            border-radius: 0px;
+            color: rgb(228, 228, 231, 1);
+            border-bottom: none;
+            min-width: fit-content;
+
+            &.ant-table-column-sort {
+                background: #fff;
+            }
+
+            &:focus {
+                --tw-ring-shadow: none;
+            }
+
+            &:before {
+                content: none !important;
+            }
+        }
+    }
+
+    .ant-table-tbody {
+        .ant-table-row {
+            .ant-table-cell {
+                padding: 10px;
+                border-top: solid 1px rgba(63, 63, 70, 1);
+                border-bottom: none;
+                background: #18181B;
+                max-width: 400px;
+
+                .cell-noted {
+                    position: relative;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}

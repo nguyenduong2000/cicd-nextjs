@@ -1,0 +1,4 @@
+.custom-style .ant-radio-checked .ant-radio-inner {
+    background-color: #000 !important; 
+    border-color: #000 !important; 
+}

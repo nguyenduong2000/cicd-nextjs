@@ -1,0 +1,100 @@
+.wrap-collapse {
+    background-color: unset;
+    border-radius: 0px;
+    border-bottom: 1px solid #ccc;
+    min-width: 700px;
+
+    .ant-collapse-item {
+        margin-bottom: 10px;
+        border: 1px solid transparent;
+
+        .ant-collapse-header {
+            @apply focus:ring-0 px-3 py-2 relative;
+
+            .ant-collapse-expand-icon {
+               position: absolute;
+               right: 12px;
+               font-size: 20px;
+               top:50%;
+               transform: translateY(-50%);
+            }
+        }
+
+        .ant-collapse-content {
+            .ant-collapse-content-box {
+                padding-left: 0px;
+                padding-bottom: 4px;
+                padding-right: 0px;
+            }
+        }
+    }
+
+    /* active collapse */
+    .ant-collapse-item.ant-collapse-item-active {
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        margin-top: 12px;
+        transition: margin 0.3s ease-in-out;
+
+        .ant-collapse-header {
+            background-color: #efefef;
+        }
+    }
+
+}
+
+.chart-table .ant-table .ant-table-container {
+    font-size: 18px;
+
+    .ant-table-thead {
+        .ant-table-cell {
+            background: #fff !important;
+            padding: 2px;
+            user-select: none;
+            font-weight: 400;
+
+            &.ant-table-column-sort {
+                background: #fff;
+            }
+
+            &:hover {
+                background: #fff;
+            }
+
+            &:focus {
+                --tw-ring-shadow: none;
+            }
+
+            &:before {
+                content: none !important;
+            }
+        }
+    }
+
+    .ant-table-tbody {
+        .ant-table-row {
+            .ant-table-cell {
+                padding: 5px 10px !important;
+                border-top: solid 1px #e5e5e5;
+                background: #FFF;
+
+                .cell-noted {
+                    position: relative;
+                    padding: 5px;
+
+                    &:after {
+                        content: '';
+                        width: 0;
+                        height: 0;
+                        border-style: solid;
+                        border-width: 0 6px 6px 0;
+                        border-color: transparent #983E98 transparent transparent;
+                        right: 0;
+                        top: 0;
+                        position: absolute;
+                    }
+                }
+            }
+        }
+    }
+}

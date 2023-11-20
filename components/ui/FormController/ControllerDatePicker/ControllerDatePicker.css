@@ -1,0 +1,7 @@
+.date-picker-custom {
+    .ant-picker-footer {
+        .ant-btn-primary {
+            background-color: #1677ff !important;
+        }
+    }
+}

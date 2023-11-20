@@ -1,0 +1,30 @@
+# Default values
+# https://vercel.com/docs/deployments/build-features#ignored-files-and-folders
+.hg
+.git
+.gitmodules
+.svn
+.cache
+.next
+.now
+.vercel
+.npmignore
+.dockerignore
+.gitignore
+.*.swp
+.DS_Store
+.wafpicke-*
+.lock-wscript
+.env.local
+.env.*.local
+.venv
+npm-debug.log
+config.gypi
+node_modules
+__pycache__
+venv
+CVS
+
+# Additional ones
+.devenv
+.git
