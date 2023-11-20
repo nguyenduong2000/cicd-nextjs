@@ -5,6 +5,7 @@ import { redirect } from 'next/navigation';
 interface Props {
   children: React.ReactNode;
 }
+
 export default function ProtectedRouter({ children }: Props) {
   const {
     appState: { isAuthenticated, isInitialized }
@@ -13,5 +14,6 @@ export default function ProtectedRouter({ children }: Props) {
   if (!isAuthenticated && isInitialized) {
     redirect('/views/signin');
   }
+  
   return <>{children}</>;
 }
