@@ -14,5 +14,6 @@ export default function ProtectedRouter({ children }: Props) {
   if (!isAuthenticated && isInitialized) {
     redirect('/views/signin');
   }
+  
   return <>{children}</>;
 }
