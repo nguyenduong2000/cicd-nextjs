@@ -21,6 +21,7 @@ type MenuItem = Required<MenuProps>['items'][number];
 function Sidebar({ isAuthenticated }: Props) {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
+  
   const showDrawer = () => {
     setOpen(true);
   };
