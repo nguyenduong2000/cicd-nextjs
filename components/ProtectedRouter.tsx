@@ -5,6 +5,7 @@ import { redirect } from 'next/navigation';
 interface Props {
   children: React.ReactNode;
 }
+
 export default function ProtectedRouter({ children }: Props) {
   const {
     appState: { isAuthenticated, isInitialized }
