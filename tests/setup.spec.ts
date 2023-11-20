@@ -3,7 +3,7 @@ import { login } from './utils-test';
 
 test.describe('Setup', () => {
   test('should save setup', async () => {
-    const { page } = await login({ headless: false });
+    const { page } = await login( );
     await page.goto(`/views/pages/setup`);
     await page.waitForSelector('.ant-form-item');
     await page.waitForTimeout(1000);

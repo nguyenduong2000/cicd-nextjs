@@ -22,7 +22,7 @@ test.describe('Portfolios', () => {
 
 test.describe('Chart portfolios', () => {
   test('should display chart data by date when clicked button', async () => {
-    const { page, browser } = await login({ headless: false });
+    const { page, browser } = await login( );
     await page.waitForSelector('.highcharts-root');
     await page.waitForSelector('.highcharts-background');
     const gElements = await page.$$('svg g.highcharts-no-tooltip');
@@ -49,7 +49,7 @@ test.describe('Chart portfolios', () => {
 
 test.describe('Chart portfolios', () => {
   test('', async () => {
-    const { page, browser } = await login({ headless: false });
+    const { page, browser } = await login( );
     await page.waitForSelector('.table-trades');
     await page.mouse.wheel(0, 1000);
     await page.waitForTimeout(1000);

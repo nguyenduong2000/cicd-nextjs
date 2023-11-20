@@ -12,7 +12,7 @@ test.describe('Creates a strategy', () => {
   });
 
   test('should navigate to the setup page when create successfully', async () => {
-    const { browser, page } = await login({ headless: false });
+    const { browser, page } = await login( );
 
     const setFormStrategy = async () => {
       await page.goto(`/views/pages/setup/add`);
@@ -57,7 +57,7 @@ test.describe('Creates a strategy', () => {
 
 test.describe('Live Strategy', () => {
   test('should start the strategy on click and if started then stop it', async () => {
-    const { page, browser } = await login({ headless: false });
+    const { page, browser } = await login( );
     await page.goto(`/views/pages/setup`);
     await page.waitForSelector('tr.ant-table-row');
     const hasStop = await page.$('button.btn-stop');

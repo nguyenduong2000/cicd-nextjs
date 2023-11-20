@@ -3,7 +3,7 @@ import { login } from './utils-test';
 
 test.describe('Creates a broker account', () => {
   test('validation create broker account', async () => {
-    const { page, browser } = await login({ headless: false });
+    const { page, browser } = await login( );
     await page.goto(`/views/pages/account`);
 
     const tab = await page.$('[data-node-key="broker_account"]');
@@ -18,7 +18,7 @@ test.describe('Creates a broker account', () => {
   });
 
   test('should navigate to the broker account page when create successfully', async () => {
-    const { browser, page } = await login({ headless: false });
+    const { browser, page } = await login( );
     await page.goto(`/views/pages/account`);
 
     const setFormStrategy = async () => {
